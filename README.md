@@ -18,22 +18,22 @@ The application is implemented in Python and leverages the following libraries /
 ***README IN PROGRESS***
 
 ## Some demonstrations
-- [ ] A video/GIF of the LLM in action
+Showcase a video demonstration
 
 ## Setup configuration and installation
 List of main components + some words on them + how to install them :
 - [ ] Models (`TheBloke` on HuggingFace and GGUF models -> models/README.md)
 - [ ] Llama-cpp (does not support async calls)
 - [ ] Langchain (LCEL)
-- [ ] Chainlit (`make_async` for Llama-cpp models)
+- [ ] Chainlit (`make_async` for Llama-cpp models + `run` command)
 - [ ] `.local/share/applications/llm_chat.desktop` with explainations for icons as well
 
 ## TODO
-- [ ] This README
+- [x] Modification of `chainlit.md` as Welcome page for the chat
+- [ ] Chainlit chat customization
+- [ ] A video/GIF of the LLM in action
 - [ ] `models`/`README.md`
 - [ ] Change paths to models
-- [ ] Modification of `chainlit.md` as Welcome page for the chat
-- [ ] Chainlit chat customization
 - [ ] Roadmap
 
 ## Roadmap
