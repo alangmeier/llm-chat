@@ -1,14 +1,16 @@
-# Welcome to Chainlit! 🚀🤖
+# 
+# 📣 Welcome to your personal AI chat assistant ! 📣
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hello everyone ! 👐
 
-## Useful Links 🔗
+I am thrilled to have you here and I hope you'll enjoy your time with this AI chatbot. 🤖 
+Feel free to converse with the model and test its limitations. 💬
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+This project does not intend to implement extra-accurate, state of the art generative AI models. To this end, I'll guide you towards [more well-known and established platforms](https://chat.openai.com/).
+In the end, it's just for fun ! 💥
+More improvements may be implemented in the future. 🔜
+If you feel *adventurous*, you can try using other models. The procedure for loading other models is explained [here](https://github.com/alangmeier/llm-chat/blob/main/models/README.md). 📚
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+If you like this project, don't hesitate to give support or contribute on [the GitHub repo](https://github.com/alangmeier/llm-chat) ! 📌
 
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+## ❤️ Thanks and have fun ! ❤️
