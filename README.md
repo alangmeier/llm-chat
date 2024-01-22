@@ -37,15 +37,18 @@ The LLM models that are used here are called [*quantized models*](https://huggin
 Quantized models can be found in GGUF format ([the successor of GGML format](https://medium.com/@phillipgimmi/what-is-gguf-and-ggml-e364834d241c)). The procedure to download quantized models is explained in [`models/README.md`](models/README.md).
 
 ### LangChain
-LangChain is a framework which integrates `llama-cpp-python`. Together, these packages allow the instantiation of the quantized models that are used in this repo. Some examples are available [here](https://python.langchain.com/docs/integrations/llms/llamacpp#usage), where only the CPU sections have been considered.
+[LangChain](https://github.com/langchain-ai/langchain) is a framework which integrates `llama-cpp-python`. Together, these packages allow the instantiation of the quantized models that are used in this repo. Some examples are available [here](https://python.langchain.com/docs/integrations/llms/llamacpp#usage), where only the CPU sections have been considered.
 
 In addition, LangChain provides an easy-to-use syntax ([LCEL](https://python.langchain.com/docs/expression_language/)) for writing LLM chains that allows, in particular, streaming of the models's answer.
 
 ### Chainlit
-TODO :
-- chainlit with langchain (https://docs.chainlit.io/integrations/langchain)
-- `make_async` for Llama-cpp models (does not support async calls) 
-- `run` command
+[Chainlit](https://github.com/Chainlit/chainlit) is an async framework that can be combined with LangChain in order to build applications that look like regular LLM chats. Leveraging LangChain's syntax the app can be built in a few lines of codes, inspired by [this example]((https://docs.chainlit.io/integrations/langchain)).
+Since the `llama-cpp-python` library does not support asynchronous calls (as of January 2024), I had to use the sync implementation from the example and use Chainlit's function `make_async`.
+
+The following command allows to run the app from this folder :
+```
+chainlit run chat_chainlit.py -w
+```
 
 ## TODO
 - [x] Modification of `chainlit.md` as Welcome page for the chat
@@ -57,6 +60,7 @@ TODO :
 - [ ] Roadmap
 
 ## Roadmap
+- [ ] Allow the user to set some variables like the temperature or select the model.
 - [ ] Memory buffer ?
 - [ ] RAG implementation ?
 - [ ] Test some other models ?
