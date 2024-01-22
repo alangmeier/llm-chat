@@ -35,13 +35,13 @@ multi_modal = true
 
 [UI]
 # Name of the app and chatbot.
-name = "Chatbot"
+name = "Alfred"
 
 # Show the readme while the conversation is empty.
 show_readme_as_default = true
 
 # Description of the app and chatbot. This is used for HTML tags.
-# description = ""
+description = "Personal CPU-powered AI Chat-Assistant"
 
 # Large size content are by default collapsed for a cleaner ui
 default_collapse_content = true
@@ -53,7 +53,7 @@ default_expand_messages = false
 hide_cot = false
 
 # Link to your github repo. This will add a github button in the UI's header.
-# github = ""
+github = "https://github.com/alangmeier/llm-chat"
 
 # Specify a CSS file that can be used to customize the user interface.
 # The CSS file can be served from the public directory or via an external link.
@@ -65,19 +65,19 @@ hide_cot = false
     #paper = "#FFFFFF"
 
     [UI.theme.light.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
+        main = "#e05780"
+        dark = "#8a2846"
+        light = "#ffe0e9"
 
 # Override default MUI dark theme. (Check theme.ts)
 [UI.theme.dark]
-    #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+    #background = "#001a2c"
+    #paper = "#00111c"
 
     [UI.theme.dark.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
+        main = "#fae588"
+        dark = "#f9dc5c"
+        light = "#fcefb4"
 
 
 [meta]

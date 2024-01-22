@@ -2,7 +2,6 @@
 models/*
 !models/README.md
 .vscode/*
-resources/icon.png
 
 
 # Byte-compiled / optimized / DLL files

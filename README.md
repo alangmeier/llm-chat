@@ -52,7 +52,7 @@ chainlit run chat_chainlit.py -w
 
 ## TODO
 - [x] Modification of `chainlit.md` as Welcome page for the chat
-- [ ] Chainlit chat customization
+- [x] Chainlit chat customization
 - [ ] A video/GIF of the LLM in action
 - [ ] `models`/`README.md`
 - [ ] Change paths to models
