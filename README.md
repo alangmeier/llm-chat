@@ -12,7 +12,9 @@ At first, I wondered *if* and *how* I could implement a LLM-powered chatbot on m
 
 This repository contains a simple implementation of an AI chatbot based on lightweight / quantized LLM models. The idea is to run a chat-like app powered by a pre-trained LLM model, on a regular CPU.
 
-![alt text](public/demo.gif)
+<p align="center">
+  <img src="public/demo.gif" alt="animated" />
+</p>
 
 ---
 
