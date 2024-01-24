@@ -12,9 +12,7 @@ At first, I wondered *if* and *how* I could implement a LLM-powered chatbot on m
 
 This repository contains a simple implementation of an AI chatbot based on lightweight / quantized LLM models. The idea is to run a chat-like app powered by a pre-trained LLM model, on a regular CPU.
 
----
-<!-- TODO -->
-*Showcase a video demonstration*
+![alt text](public/demo.gif)
 
 ---
 
@@ -53,7 +51,7 @@ chainlit run chat_chainlit.py -w
 ## TODO
 - [x] Modification of `chainlit.md` as Welcome page for the chat
 - [x] Chainlit chat customization
-- [ ] A video/GIF of the LLM in action
+- [x] A video/GIF of the LLM in action
 - [ ] `models`/`README.md`
 - [ ] Change paths to models
 - [ ] `.local/share/applications/llm_chat.desktop` with explainations for desktop icons
