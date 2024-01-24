@@ -2,6 +2,7 @@
 models/*
 !models/README.md
 .vscode/*
+private/
 
 
 # Byte-compiled / optimized / DLL files
