@@ -3,6 +3,7 @@ models/*
 !models/README.md
 .vscode/*
 private/
+variables.py
 
 
 # Byte-compiled / optimized / DLL files

@@ -6,7 +6,6 @@ keywords: [AI, LLM, Chatbot, llama-cpp, LangChain, Chainlit, CPU]
 ---
 
 # Personal CPU-powered AI Chat-Assistant
-***README IN PROGRESS***
 
 At first, I wondered *if* and *how* I could implement a LLM-powered chatbot on my own laptop, without crazy computing power. And that's how this mini-project came to life.
 
@@ -50,17 +49,8 @@ The following command allows to run the app from this folder :
 chainlit run chat_chainlit.py -w
 ```
 
-## TODO
-- [x] Modification of `chainlit.md` as Welcome page for the chat
-- [x] Chainlit chat customization
-- [x] A video/GIF of the LLM in action
-- [ ] `models`/`README.md`
-- [ ] Change paths to models
-- [ ] `.local/share/applications/llm_chat.desktop` with explainations for desktop icons
-- [ ] Roadmap
-
 ## Roadmap
-- [ ] Allow the user to set some variables like the temperature or select the model.
-- [ ] Memory buffer ?
-- [ ] RAG implementation ?
-- [ ] Test some other models ?
+- [ ] Allow the user to select the model or set some variables like the temperature.
+- [ ] Add conversational memory to the chatbot.
+- [ ] Implement Retrieval-Augmented Generation (RAG).
+- [ ] ...

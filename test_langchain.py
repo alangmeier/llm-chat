@@ -5,7 +5,6 @@
 from langchain.llms import LlamaCpp
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain.schema.runnable.config import RunnableConfig, get_config_list
 from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
