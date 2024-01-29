@@ -7,7 +7,7 @@ In order to use quantized models in this project, some steps must be followed.
 1. After finding the right model, one must verify that it is compatible with `llama.cpp`. This can be done on the repo (https://github.com/ggerganov/llama.cpp#description) or it is sometimes mentioned in the model cards.
 
 1. At that point, the GGUF model can be downloaded. The procedure to download models from HuggingFace is described here :
-    1. `huggingface_hub` must be installed, using `conda` :
+    - `huggingface_hub` must be installed, using `conda` :
     ```
     conda install -c conda-forge huggingface_hub
     ```
